@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Inter var', 'sans-serif'],
+      Manrope: ['Manrope', 'Syne']
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')],
 }
