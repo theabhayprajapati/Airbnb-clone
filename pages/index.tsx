@@ -29,7 +29,6 @@ export default function Home({ data, card }: any) {
                 return (<SmallCard img={item.img} location={item.location} distance={item.distance} key={index} />)
               })
             }
-
           </div>
         </section>
         <section>
@@ -45,10 +44,15 @@ export default function Home({ data, card }: any) {
 
           </div>
         </section>
+        <section className='block'>
 
-        <LargeCard img="https://links.papareact.com/4cj" title='The Greatest Outdoors' description="Wishlist curated by Airbnb" button="Get Insipred" />
+          <LargeCard img='https://links.papareact.com/4cj' title='The Greatest Outdoors' description='Wishlist curated by Airbnb' buttontext='Get Insipred' />
+
+        </section>
+
 
       </main>
+
     </div>
   )
 }
